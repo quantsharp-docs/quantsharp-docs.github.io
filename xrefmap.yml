@@ -1,3 +1,171 @@
 ### YamlMime:XRefMap
 sorted: true
-references: []
+references:
+- uid: QuantSharp
+  name: QuantSharp
+  href: api/QuantSharp.html
+  commentId: N:QuantSharp
+  fullName: QuantSharp
+  nameWithType: QuantSharp
+- uid: QuantSharp.BlackScholesEuropeanOptionsFunctions
+  name: BlackScholesEuropeanOptionsFunctions
+  href: api/QuantSharp.BlackScholesEuropeanOptionsFunctions.html
+  commentId: T:QuantSharp.BlackScholesEuropeanOptionsFunctions
+  fullName: QuantSharp.BlackScholesEuropeanOptionsFunctions
+  nameWithType: BlackScholesEuropeanOptionsFunctions
+- uid: QuantSharp.BlackScholesEuropeanOptionsFunctions.CallDelta(System.Double,System.Double,System.Double,System.Double,System.Double)
+  name: CallDelta(Double, Double, Double, Double, Double)
+  href: api/QuantSharp.BlackScholesEuropeanOptionsFunctions.html#QuantSharp_BlackScholesEuropeanOptionsFunctions_CallDelta_System_Double_System_Double_System_Double_System_Double_System_Double_
+  commentId: M:QuantSharp.BlackScholesEuropeanOptionsFunctions.CallDelta(System.Double,System.Double,System.Double,System.Double,System.Double)
+  fullName: QuantSharp.BlackScholesEuropeanOptionsFunctions.CallDelta(System.Double, System.Double, System.Double, System.Double, System.Double)
+  nameWithType: BlackScholesEuropeanOptionsFunctions.CallDelta(Double, Double, Double, Double, Double)
+- uid: QuantSharp.BlackScholesEuropeanOptionsFunctions.CallDelta*
+  name: CallDelta
+  href: api/QuantSharp.BlackScholesEuropeanOptionsFunctions.html#QuantSharp_BlackScholesEuropeanOptionsFunctions_CallDelta_
+  commentId: Overload:QuantSharp.BlackScholesEuropeanOptionsFunctions.CallDelta
+  fullName: QuantSharp.BlackScholesEuropeanOptionsFunctions.CallDelta
+  nameWithType: BlackScholesEuropeanOptionsFunctions.CallDelta
+- uid: QuantSharp.BlackScholesEuropeanOptionsFunctions.CallImpliedVolatility(System.Double,System.Double,System.Double,System.Double,System.Double)
+  name: CallImpliedVolatility(Double, Double, Double, Double, Double)
+  href: api/QuantSharp.BlackScholesEuropeanOptionsFunctions.html#QuantSharp_BlackScholesEuropeanOptionsFunctions_CallImpliedVolatility_System_Double_System_Double_System_Double_System_Double_System_Double_
+  commentId: M:QuantSharp.BlackScholesEuropeanOptionsFunctions.CallImpliedVolatility(System.Double,System.Double,System.Double,System.Double,System.Double)
+  fullName: QuantSharp.BlackScholesEuropeanOptionsFunctions.CallImpliedVolatility(System.Double, System.Double, System.Double, System.Double, System.Double)
+  nameWithType: BlackScholesEuropeanOptionsFunctions.CallImpliedVolatility(Double, Double, Double, Double, Double)
+- uid: QuantSharp.BlackScholesEuropeanOptionsFunctions.CallImpliedVolatility*
+  name: CallImpliedVolatility
+  href: api/QuantSharp.BlackScholesEuropeanOptionsFunctions.html#QuantSharp_BlackScholesEuropeanOptionsFunctions_CallImpliedVolatility_
+  commentId: Overload:QuantSharp.BlackScholesEuropeanOptionsFunctions.CallImpliedVolatility
+  fullName: QuantSharp.BlackScholesEuropeanOptionsFunctions.CallImpliedVolatility
+  nameWithType: BlackScholesEuropeanOptionsFunctions.CallImpliedVolatility
+- uid: QuantSharp.BlackScholesEuropeanOptionsFunctions.CallPrice(System.Double,System.Double,System.Double,System.Double,System.Double)
+  name: CallPrice(Double, Double, Double, Double, Double)
+  href: api/QuantSharp.BlackScholesEuropeanOptionsFunctions.html#QuantSharp_BlackScholesEuropeanOptionsFunctions_CallPrice_System_Double_System_Double_System_Double_System_Double_System_Double_
+  commentId: M:QuantSharp.BlackScholesEuropeanOptionsFunctions.CallPrice(System.Double,System.Double,System.Double,System.Double,System.Double)
+  fullName: QuantSharp.BlackScholesEuropeanOptionsFunctions.CallPrice(System.Double, System.Double, System.Double, System.Double, System.Double)
+  nameWithType: BlackScholesEuropeanOptionsFunctions.CallPrice(Double, Double, Double, Double, Double)
+- uid: QuantSharp.BlackScholesEuropeanOptionsFunctions.CallPrice*
+  name: CallPrice
+  href: api/QuantSharp.BlackScholesEuropeanOptionsFunctions.html#QuantSharp_BlackScholesEuropeanOptionsFunctions_CallPrice_
+  commentId: Overload:QuantSharp.BlackScholesEuropeanOptionsFunctions.CallPrice
+  fullName: QuantSharp.BlackScholesEuropeanOptionsFunctions.CallPrice
+  nameWithType: BlackScholesEuropeanOptionsFunctions.CallPrice
+- uid: QuantSharp.BlackScholesEuropeanOptionsFunctions.CallRho(System.Double,System.Double,System.Double,System.Double,System.Double)
+  name: CallRho(Double, Double, Double, Double, Double)
+  href: api/QuantSharp.BlackScholesEuropeanOptionsFunctions.html#QuantSharp_BlackScholesEuropeanOptionsFunctions_CallRho_System_Double_System_Double_System_Double_System_Double_System_Double_
+  commentId: M:QuantSharp.BlackScholesEuropeanOptionsFunctions.CallRho(System.Double,System.Double,System.Double,System.Double,System.Double)
+  fullName: QuantSharp.BlackScholesEuropeanOptionsFunctions.CallRho(System.Double, System.Double, System.Double, System.Double, System.Double)
+  nameWithType: BlackScholesEuropeanOptionsFunctions.CallRho(Double, Double, Double, Double, Double)
+- uid: QuantSharp.BlackScholesEuropeanOptionsFunctions.CallRho*
+  name: CallRho
+  href: api/QuantSharp.BlackScholesEuropeanOptionsFunctions.html#QuantSharp_BlackScholesEuropeanOptionsFunctions_CallRho_
+  commentId: Overload:QuantSharp.BlackScholesEuropeanOptionsFunctions.CallRho
+  fullName: QuantSharp.BlackScholesEuropeanOptionsFunctions.CallRho
+  nameWithType: BlackScholesEuropeanOptionsFunctions.CallRho
+- uid: QuantSharp.BlackScholesEuropeanOptionsFunctions.CallTheta(System.Double,System.Double,System.Double,System.Double,System.Double)
+  name: CallTheta(Double, Double, Double, Double, Double)
+  href: api/QuantSharp.BlackScholesEuropeanOptionsFunctions.html#QuantSharp_BlackScholesEuropeanOptionsFunctions_CallTheta_System_Double_System_Double_System_Double_System_Double_System_Double_
+  commentId: M:QuantSharp.BlackScholesEuropeanOptionsFunctions.CallTheta(System.Double,System.Double,System.Double,System.Double,System.Double)
+  fullName: QuantSharp.BlackScholesEuropeanOptionsFunctions.CallTheta(System.Double, System.Double, System.Double, System.Double, System.Double)
+  nameWithType: BlackScholesEuropeanOptionsFunctions.CallTheta(Double, Double, Double, Double, Double)
+- uid: QuantSharp.BlackScholesEuropeanOptionsFunctions.CallTheta*
+  name: CallTheta
+  href: api/QuantSharp.BlackScholesEuropeanOptionsFunctions.html#QuantSharp_BlackScholesEuropeanOptionsFunctions_CallTheta_
+  commentId: Overload:QuantSharp.BlackScholesEuropeanOptionsFunctions.CallTheta
+  fullName: QuantSharp.BlackScholesEuropeanOptionsFunctions.CallTheta
+  nameWithType: BlackScholesEuropeanOptionsFunctions.CallTheta
+- uid: QuantSharp.BlackScholesEuropeanOptionsFunctions.Gamma(System.Double,System.Double,System.Double,System.Double,System.Double)
+  name: Gamma(Double, Double, Double, Double, Double)
+  href: api/QuantSharp.BlackScholesEuropeanOptionsFunctions.html#QuantSharp_BlackScholesEuropeanOptionsFunctions_Gamma_System_Double_System_Double_System_Double_System_Double_System_Double_
+  commentId: M:QuantSharp.BlackScholesEuropeanOptionsFunctions.Gamma(System.Double,System.Double,System.Double,System.Double,System.Double)
+  fullName: QuantSharp.BlackScholesEuropeanOptionsFunctions.Gamma(System.Double, System.Double, System.Double, System.Double, System.Double)
+  nameWithType: BlackScholesEuropeanOptionsFunctions.Gamma(Double, Double, Double, Double, Double)
+- uid: QuantSharp.BlackScholesEuropeanOptionsFunctions.Gamma*
+  name: Gamma
+  href: api/QuantSharp.BlackScholesEuropeanOptionsFunctions.html#QuantSharp_BlackScholesEuropeanOptionsFunctions_Gamma_
+  commentId: Overload:QuantSharp.BlackScholesEuropeanOptionsFunctions.Gamma
+  fullName: QuantSharp.BlackScholesEuropeanOptionsFunctions.Gamma
+  nameWithType: BlackScholesEuropeanOptionsFunctions.Gamma
+- uid: QuantSharp.BlackScholesEuropeanOptionsFunctions.PutDelta(System.Double,System.Double,System.Double,System.Double,System.Double)
+  name: PutDelta(Double, Double, Double, Double, Double)
+  href: api/QuantSharp.BlackScholesEuropeanOptionsFunctions.html#QuantSharp_BlackScholesEuropeanOptionsFunctions_PutDelta_System_Double_System_Double_System_Double_System_Double_System_Double_
+  commentId: M:QuantSharp.BlackScholesEuropeanOptionsFunctions.PutDelta(System.Double,System.Double,System.Double,System.Double,System.Double)
+  fullName: QuantSharp.BlackScholesEuropeanOptionsFunctions.PutDelta(System.Double, System.Double, System.Double, System.Double, System.Double)
+  nameWithType: BlackScholesEuropeanOptionsFunctions.PutDelta(Double, Double, Double, Double, Double)
+- uid: QuantSharp.BlackScholesEuropeanOptionsFunctions.PutDelta*
+  name: PutDelta
+  href: api/QuantSharp.BlackScholesEuropeanOptionsFunctions.html#QuantSharp_BlackScholesEuropeanOptionsFunctions_PutDelta_
+  commentId: Overload:QuantSharp.BlackScholesEuropeanOptionsFunctions.PutDelta
+  fullName: QuantSharp.BlackScholesEuropeanOptionsFunctions.PutDelta
+  nameWithType: BlackScholesEuropeanOptionsFunctions.PutDelta
+- uid: QuantSharp.BlackScholesEuropeanOptionsFunctions.PutImpliedVolatility(System.Double,System.Double,System.Double,System.Double,System.Double)
+  name: PutImpliedVolatility(Double, Double, Double, Double, Double)
+  href: api/QuantSharp.BlackScholesEuropeanOptionsFunctions.html#QuantSharp_BlackScholesEuropeanOptionsFunctions_PutImpliedVolatility_System_Double_System_Double_System_Double_System_Double_System_Double_
+  commentId: M:QuantSharp.BlackScholesEuropeanOptionsFunctions.PutImpliedVolatility(System.Double,System.Double,System.Double,System.Double,System.Double)
+  fullName: QuantSharp.BlackScholesEuropeanOptionsFunctions.PutImpliedVolatility(System.Double, System.Double, System.Double, System.Double, System.Double)
+  nameWithType: BlackScholesEuropeanOptionsFunctions.PutImpliedVolatility(Double, Double, Double, Double, Double)
+- uid: QuantSharp.BlackScholesEuropeanOptionsFunctions.PutImpliedVolatility*
+  name: PutImpliedVolatility
+  href: api/QuantSharp.BlackScholesEuropeanOptionsFunctions.html#QuantSharp_BlackScholesEuropeanOptionsFunctions_PutImpliedVolatility_
+  commentId: Overload:QuantSharp.BlackScholesEuropeanOptionsFunctions.PutImpliedVolatility
+  fullName: QuantSharp.BlackScholesEuropeanOptionsFunctions.PutImpliedVolatility
+  nameWithType: BlackScholesEuropeanOptionsFunctions.PutImpliedVolatility
+- uid: QuantSharp.BlackScholesEuropeanOptionsFunctions.PutPrice(System.Double,System.Double,System.Double,System.Double,System.Double)
+  name: PutPrice(Double, Double, Double, Double, Double)
+  href: api/QuantSharp.BlackScholesEuropeanOptionsFunctions.html#QuantSharp_BlackScholesEuropeanOptionsFunctions_PutPrice_System_Double_System_Double_System_Double_System_Double_System_Double_
+  commentId: M:QuantSharp.BlackScholesEuropeanOptionsFunctions.PutPrice(System.Double,System.Double,System.Double,System.Double,System.Double)
+  fullName: QuantSharp.BlackScholesEuropeanOptionsFunctions.PutPrice(System.Double, System.Double, System.Double, System.Double, System.Double)
+  nameWithType: BlackScholesEuropeanOptionsFunctions.PutPrice(Double, Double, Double, Double, Double)
+- uid: QuantSharp.BlackScholesEuropeanOptionsFunctions.PutPrice*
+  name: PutPrice
+  href: api/QuantSharp.BlackScholesEuropeanOptionsFunctions.html#QuantSharp_BlackScholesEuropeanOptionsFunctions_PutPrice_
+  commentId: Overload:QuantSharp.BlackScholesEuropeanOptionsFunctions.PutPrice
+  fullName: QuantSharp.BlackScholesEuropeanOptionsFunctions.PutPrice
+  nameWithType: BlackScholesEuropeanOptionsFunctions.PutPrice
+- uid: QuantSharp.BlackScholesEuropeanOptionsFunctions.PutRho(System.Double,System.Double,System.Double,System.Double,System.Double)
+  name: PutRho(Double, Double, Double, Double, Double)
+  href: api/QuantSharp.BlackScholesEuropeanOptionsFunctions.html#QuantSharp_BlackScholesEuropeanOptionsFunctions_PutRho_System_Double_System_Double_System_Double_System_Double_System_Double_
+  commentId: M:QuantSharp.BlackScholesEuropeanOptionsFunctions.PutRho(System.Double,System.Double,System.Double,System.Double,System.Double)
+  fullName: QuantSharp.BlackScholesEuropeanOptionsFunctions.PutRho(System.Double, System.Double, System.Double, System.Double, System.Double)
+  nameWithType: BlackScholesEuropeanOptionsFunctions.PutRho(Double, Double, Double, Double, Double)
+- uid: QuantSharp.BlackScholesEuropeanOptionsFunctions.PutRho*
+  name: PutRho
+  href: api/QuantSharp.BlackScholesEuropeanOptionsFunctions.html#QuantSharp_BlackScholesEuropeanOptionsFunctions_PutRho_
+  commentId: Overload:QuantSharp.BlackScholesEuropeanOptionsFunctions.PutRho
+  fullName: QuantSharp.BlackScholesEuropeanOptionsFunctions.PutRho
+  nameWithType: BlackScholesEuropeanOptionsFunctions.PutRho
+- uid: QuantSharp.BlackScholesEuropeanOptionsFunctions.PutTheta(System.Double,System.Double,System.Double,System.Double,System.Double)
+  name: PutTheta(Double, Double, Double, Double, Double)
+  href: api/QuantSharp.BlackScholesEuropeanOptionsFunctions.html#QuantSharp_BlackScholesEuropeanOptionsFunctions_PutTheta_System_Double_System_Double_System_Double_System_Double_System_Double_
+  commentId: M:QuantSharp.BlackScholesEuropeanOptionsFunctions.PutTheta(System.Double,System.Double,System.Double,System.Double,System.Double)
+  fullName: QuantSharp.BlackScholesEuropeanOptionsFunctions.PutTheta(System.Double, System.Double, System.Double, System.Double, System.Double)
+  nameWithType: BlackScholesEuropeanOptionsFunctions.PutTheta(Double, Double, Double, Double, Double)
+- uid: QuantSharp.BlackScholesEuropeanOptionsFunctions.PutTheta*
+  name: PutTheta
+  href: api/QuantSharp.BlackScholesEuropeanOptionsFunctions.html#QuantSharp_BlackScholesEuropeanOptionsFunctions_PutTheta_
+  commentId: Overload:QuantSharp.BlackScholesEuropeanOptionsFunctions.PutTheta
+  fullName: QuantSharp.BlackScholesEuropeanOptionsFunctions.PutTheta
+  nameWithType: BlackScholesEuropeanOptionsFunctions.PutTheta
+- uid: QuantSharp.BlackScholesEuropeanOptionsFunctions.Vega(System.Double,System.Double,System.Double,System.Double,System.Double)
+  name: Vega(Double, Double, Double, Double, Double)
+  href: api/QuantSharp.BlackScholesEuropeanOptionsFunctions.html#QuantSharp_BlackScholesEuropeanOptionsFunctions_Vega_System_Double_System_Double_System_Double_System_Double_System_Double_
+  commentId: M:QuantSharp.BlackScholesEuropeanOptionsFunctions.Vega(System.Double,System.Double,System.Double,System.Double,System.Double)
+  fullName: QuantSharp.BlackScholesEuropeanOptionsFunctions.Vega(System.Double, System.Double, System.Double, System.Double, System.Double)
+  nameWithType: BlackScholesEuropeanOptionsFunctions.Vega(Double, Double, Double, Double, Double)
+- uid: QuantSharp.BlackScholesEuropeanOptionsFunctions.Vega*
+  name: Vega
+  href: api/QuantSharp.BlackScholesEuropeanOptionsFunctions.html#QuantSharp_BlackScholesEuropeanOptionsFunctions_Vega_
+  commentId: Overload:QuantSharp.BlackScholesEuropeanOptionsFunctions.Vega
+  fullName: QuantSharp.BlackScholesEuropeanOptionsFunctions.Vega
+  nameWithType: BlackScholesEuropeanOptionsFunctions.Vega
+- uid: QuantSharp.BlackScholesEuropeanOptionsFunctions.Vomma(System.Double,System.Double,System.Double,System.Double,System.Double)
+  name: Vomma(Double, Double, Double, Double, Double)
+  href: api/QuantSharp.BlackScholesEuropeanOptionsFunctions.html#QuantSharp_BlackScholesEuropeanOptionsFunctions_Vomma_System_Double_System_Double_System_Double_System_Double_System_Double_
+  commentId: M:QuantSharp.BlackScholesEuropeanOptionsFunctions.Vomma(System.Double,System.Double,System.Double,System.Double,System.Double)
+  fullName: QuantSharp.BlackScholesEuropeanOptionsFunctions.Vomma(System.Double, System.Double, System.Double, System.Double, System.Double)
+  nameWithType: BlackScholesEuropeanOptionsFunctions.Vomma(Double, Double, Double, Double, Double)
+- uid: QuantSharp.BlackScholesEuropeanOptionsFunctions.Vomma*
+  name: Vomma
+  href: api/QuantSharp.BlackScholesEuropeanOptionsFunctions.html#QuantSharp_BlackScholesEuropeanOptionsFunctions_Vomma_
+  commentId: Overload:QuantSharp.BlackScholesEuropeanOptionsFunctions.Vomma
+  fullName: QuantSharp.BlackScholesEuropeanOptionsFunctions.Vomma
+  nameWithType: BlackScholesEuropeanOptionsFunctions.Vomma

@@ -4,6 +4,42 @@
   "xrefmap": "xrefmap.yml",
   "files": [
     {
+      "type": "ManagedReference",
+      "source_relative_path": "api/QuantSharp.BlackScholesEuropeanOptionsFunctions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/QuantSharp.BlackScholesEuropeanOptionsFunctions.html",
+          "hash": "LFwUjNPrK1wJ5PZG1xbMRg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/QuantSharp.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/QuantSharp.html",
+          "hash": "M613gJ/AJl70UeXmgQOkBw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "api/toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/toc.html",
+          "hash": "Grte+WwD4Cw742M0uQRHVw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
       "log_codes": [
         "InvalidFileLink"
       ],
@@ -24,7 +60,7 @@
       "output": {
         ".html": {
           "relative_path": "toc.html",
-          "hash": "a2uMwSL6iQIlrWvwb6kyAw=="
+          "hash": "9E6pRAcGpqpHbV4rioX/UQ=="
         }
       },
       "is_incremental": false,
@@ -46,6 +82,12 @@
           "can_incremental": false,
           "incrementalPhase": "build",
           "total_file_count": 1,
+          "skipped_file_count": 0
+        },
+        "ManagedReferenceDocumentProcessor": {
+          "can_incremental": false,
+          "incrementalPhase": "build",
+          "total_file_count": 2,
           "skipped_file_count": 0
         },
         "TocDocumentProcessor": {

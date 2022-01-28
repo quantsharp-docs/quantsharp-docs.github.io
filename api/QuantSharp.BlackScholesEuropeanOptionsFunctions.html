@@ -1,0 +1,1094 @@
+﻿<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+  
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>Class BlackScholesEuropeanOptionsFunctions
+   </title>
+    <meta name="viewport" content="width=device-width">
+    <meta name="title" content="Class BlackScholesEuropeanOptionsFunctions
+   ">
+    <meta name="generator" content="docfx 2.56.7.0">
+    
+    <link rel="shortcut icon" href="../favicon.ico">
+    <link rel="stylesheet" href="../styles/docfx.vendor.css">
+    <link rel="stylesheet" href="../styles/docfx.css">
+    <link rel="stylesheet" href="../styles/main.css">
+    <meta property="docfx:navrel" content="../toc.html">
+    <meta property="docfx:tocrel" content="toc.html">
+    
+    
+    
+  </head>  <body data-spy="scroll" data-target="#affix" data-offset="120">
+    <div id="wrapper">
+      <header>
+        
+        <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              
+              <a class="navbar-brand" href="../index.html">
+                <img id="logo" class="svg" src="../logo.svg" alt="">
+              </a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar">
+              <form class="navbar-form navbar-right" role="search" id="search">
+                <div class="form-group">
+                  <input type="text" class="form-control" id="search-query" placeholder="Search" autocomplete="off">
+                </div>
+              </form>
+            </div>
+          </div>
+        </nav>
+        
+        <div class="subnav navbar navbar-default">
+          <div class="container hide-when-search" id="breadcrumb">
+            <ul class="breadcrumb">
+              <li></li>
+            </ul>
+          </div>
+        </div>
+      </header>
+      <div role="main" class="container body-content hide-when-search">
+        
+        <div class="sidenav hide-when-search">
+          <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
+          <div class="sidetoggle collapse" id="sidetoggle">
+            <div id="sidetoc"></div>
+          </div>
+        </div>
+        <div class="article row grid-right">
+          <div class="col-md-10">
+            <article class="content wrap" id="_content" data-uid="QuantSharp.BlackScholesEuropeanOptionsFunctions">
+  
+  
+  <h1 id="QuantSharp_BlackScholesEuropeanOptionsFunctions" data-uid="QuantSharp.BlackScholesEuropeanOptionsFunctions" class="text-break">Class BlackScholesEuropeanOptionsFunctions
+  </h1>
+  <div class="markdown level0 summary"><p>Set of static functions for Black-Scholes model calculations for european-style options.</p>
+</div>
+  <div class="markdown level0 conceptual"></div>
+  <div class="inheritance">
+    <h5>Inheritance</h5>
+    <div class="level0"><span class="xref">System.Object</span></div>
+    <div class="level1"><span class="xref">BlackScholesEuropeanOptionsFunctions</span></div>
+  </div>
+  <h6><strong>Namespace</strong>: <a class="xref" href="QuantSharp.html">QuantSharp</a></h6>
+  <h6><strong>Assembly</strong>: QuantSharp.dll</h6>
+  <h5 id="QuantSharp_BlackScholesEuropeanOptionsFunctions_syntax">Syntax</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static class BlackScholesEuropeanOptionsFunctions : Object</code></pre>
+  </div>
+  <h3 id="methods">Methods
+  </h3>
+  
+  
+  <a id="QuantSharp_BlackScholesEuropeanOptionsFunctions_CallDelta_" data-uid="QuantSharp.BlackScholesEuropeanOptionsFunctions.CallDelta*"></a>
+  <h4 id="QuantSharp_BlackScholesEuropeanOptionsFunctions_CallDelta_System_Double_System_Double_System_Double_System_Double_System_Double_" data-uid="QuantSharp.BlackScholesEuropeanOptionsFunctions.CallDelta(System.Double,System.Double,System.Double,System.Double,System.Double)">CallDelta(Double, Double, Double, Double, Double)</h4>
+  <div class="markdown level1 summary"><p>Delta of an european-style CALL option,
+i.e. the derivative of the option's price with respect to price of the underlying instrument.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static double CallDelta(double S, double K, double T, double sigma, double r)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Double</span></td>
+        <td><span class="parametername">S</span></td>
+        <td><p>Price of the underlying instrument</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Double</span></td>
+        <td><span class="parametername">K</span></td>
+        <td><p>Strike price of the option</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Double</span></td>
+        <td><span class="parametername">T</span></td>
+        <td><p>Time to expiration (in years)</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Double</span></td>
+        <td><span class="parametername">sigma</span></td>
+        <td><p>Annual volatility of the underlying instrument (as fraction, e.g. 20% is 0.2)</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Double</span></td>
+        <td><span class="parametername">r</span></td>
+        <td><p>Risk-free interest rate (as fraction, e.g. 5% is 0.05)</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Double</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="QuantSharp_BlackScholesEuropeanOptionsFunctions_CallImpliedVolatility_" data-uid="QuantSharp.BlackScholesEuropeanOptionsFunctions.CallImpliedVolatility*"></a>
+  <h4 id="QuantSharp_BlackScholesEuropeanOptionsFunctions_CallImpliedVolatility_System_Double_System_Double_System_Double_System_Double_System_Double_" data-uid="QuantSharp.BlackScholesEuropeanOptionsFunctions.CallImpliedVolatility(System.Double,System.Double,System.Double,System.Double,System.Double)">CallImpliedVolatility(Double, Double, Double, Double, Double)</h4>
+  <div class="markdown level1 summary"><p>Calculate the annual implied volatility of an european CALL option given its price.
+(Value is returned as fraction, e.g. 0.2 is 20% volatility.)</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static double CallImpliedVolatility(double S, double K, double T, double r, double C)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Double</span></td>
+        <td><span class="parametername">S</span></td>
+        <td><p>Price of the underlying instrument</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Double</span></td>
+        <td><span class="parametername">K</span></td>
+        <td><p>Strike price of the option</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Double</span></td>
+        <td><span class="parametername">T</span></td>
+        <td><p>Time to expiration (in years)</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Double</span></td>
+        <td><span class="parametername">r</span></td>
+        <td><p>Risk-free interest rate (as fraction, e.g. 5% is 0.05)</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Double</span></td>
+        <td><span class="parametername">C</span></td>
+        <td><p>Price of the option</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Double</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 id="QuantSharp_BlackScholesEuropeanOptionsFunctions_CallImpliedVolatility_System_Double_System_Double_System_Double_System_Double_System_Double__remarks">Remarks</h5>
+  <div class="markdown level1 remarks"><p>Solves numerically using Newton-Raphson method.
+Might fail if result would fall outside of 0-1000% range.</p>
+</div>
+  
+  
+  <a id="QuantSharp_BlackScholesEuropeanOptionsFunctions_CallPrice_" data-uid="QuantSharp.BlackScholesEuropeanOptionsFunctions.CallPrice*"></a>
+  <h4 id="QuantSharp_BlackScholesEuropeanOptionsFunctions_CallPrice_System_Double_System_Double_System_Double_System_Double_System_Double_" data-uid="QuantSharp.BlackScholesEuropeanOptionsFunctions.CallPrice(System.Double,System.Double,System.Double,System.Double,System.Double)">CallPrice(Double, Double, Double, Double, Double)</h4>
+  <div class="markdown level1 summary"><p>Price of an european-style CALL option.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static double CallPrice(double S, double K, double T, double sigma, double r)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Double</span></td>
+        <td><span class="parametername">S</span></td>
+        <td><p>Price of the underlying instrument</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Double</span></td>
+        <td><span class="parametername">K</span></td>
+        <td><p>Strike price of the option</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Double</span></td>
+        <td><span class="parametername">T</span></td>
+        <td><p>Time to expiration (in years)</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Double</span></td>
+        <td><span class="parametername">sigma</span></td>
+        <td><p>Annual volatility of the underlying instrument (as fraction, e.g. 20% is 0.2)</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Double</span></td>
+        <td><span class="parametername">r</span></td>
+        <td><p>Risk-free interest rate (as fraction, e.g. 5% is 0.05)</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Double</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="QuantSharp_BlackScholesEuropeanOptionsFunctions_CallRho_" data-uid="QuantSharp.BlackScholesEuropeanOptionsFunctions.CallRho*"></a>
+  <h4 id="QuantSharp_BlackScholesEuropeanOptionsFunctions_CallRho_System_Double_System_Double_System_Double_System_Double_System_Double_" data-uid="QuantSharp.BlackScholesEuropeanOptionsFunctions.CallRho(System.Double,System.Double,System.Double,System.Double,System.Double)">CallRho(Double, Double, Double, Double, Double)</h4>
+  <div class="markdown level1 summary"><p>Rho of an european-style CALL option,
+i.e. the derivative of option price with respect to risk-free interest rate.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static double CallRho(double S, double K, double T, double sigma, double r)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Double</span></td>
+        <td><span class="parametername">S</span></td>
+        <td><p>Price of the underlying instrument</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Double</span></td>
+        <td><span class="parametername">K</span></td>
+        <td><p>Strike price of the option</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Double</span></td>
+        <td><span class="parametername">T</span></td>
+        <td><p>Time to expiration (in years)</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Double</span></td>
+        <td><span class="parametername">sigma</span></td>
+        <td><p>Annual volatility of the underlying instrument (as fraction, e.g. 20% is 0.2)</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Double</span></td>
+        <td><span class="parametername">r</span></td>
+        <td><p>Risk-free interest rate (as fraction, e.g. 5% is 0.05)</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Double</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 id="QuantSharp_BlackScholesEuropeanOptionsFunctions_CallRho_System_Double_System_Double_System_Double_System_Double_System_Double__remarks">Remarks</h5>
+  <div class="markdown level1 remarks"><p><strong>Important:</strong>
+The value returned is the raw value of the derivative of option price with respect to risk-free rate.
+To get Rho value per the conventional definition (&quot;per 1% of rate change&quot;), divide the result by 100.</p>
+</div>
+  
+  
+  <a id="QuantSharp_BlackScholesEuropeanOptionsFunctions_CallTheta_" data-uid="QuantSharp.BlackScholesEuropeanOptionsFunctions.CallTheta*"></a>
+  <h4 id="QuantSharp_BlackScholesEuropeanOptionsFunctions_CallTheta_System_Double_System_Double_System_Double_System_Double_System_Double_" data-uid="QuantSharp.BlackScholesEuropeanOptionsFunctions.CallTheta(System.Double,System.Double,System.Double,System.Double,System.Double)">CallTheta(Double, Double, Double, Double, Double)</h4>
+  <div class="markdown level1 summary"><p>Theta of an european-style CALL option,
+i.e. the derivative of the option's price with respect to passage of time.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static double CallTheta(double S, double K, double T, double sigma, double r)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Double</span></td>
+        <td><span class="parametername">S</span></td>
+        <td><p>Price of the underlying instrument</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Double</span></td>
+        <td><span class="parametername">K</span></td>
+        <td><p>Strike price of the option</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Double</span></td>
+        <td><span class="parametername">T</span></td>
+        <td><p>Time to expiration (in years)</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Double</span></td>
+        <td><span class="parametername">sigma</span></td>
+        <td><p>Annual volatility of the underlying instrument (as fraction, e.g. 20% is 0.2)</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Double</span></td>
+        <td><span class="parametername">r</span></td>
+        <td><p>Risk-free interest rate (as fraction, e.g. 5% is 0.05)</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Double</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 id="QuantSharp_BlackScholesEuropeanOptionsFunctions_CallTheta_System_Double_System_Double_System_Double_System_Double_System_Double__remarks">Remarks</h5>
+  <div class="markdown level1 remarks"><p><strong>Important:</strong>
+The value returned is the raw value of the derivative of option price with respect to time.
+To get Theta value per the conventional definition (&quot;decay per 1 day&quot;), divide the result by 365.
+Additionally, the value will be <strong>positive</strong> for long positions because T decreases
+as time moves forward, therefore conventional understanding of Theta requires multiplication by -1.</p>
+</div>
+  
+  
+  <a id="QuantSharp_BlackScholesEuropeanOptionsFunctions_Gamma_" data-uid="QuantSharp.BlackScholesEuropeanOptionsFunctions.Gamma*"></a>
+  <h4 id="QuantSharp_BlackScholesEuropeanOptionsFunctions_Gamma_System_Double_System_Double_System_Double_System_Double_System_Double_" data-uid="QuantSharp.BlackScholesEuropeanOptionsFunctions.Gamma(System.Double,System.Double,System.Double,System.Double,System.Double)">Gamma(Double, Double, Double, Double, Double)</h4>
+  <div class="markdown level1 summary"><p>Gamma of an european-style option (same for CALL and PUT),
+i.e. the second derivative of the option's price with respect to price of the underlying instrument.
+It reflects the convexity of Delta.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static double Gamma(double S, double K, double T, double sigma, double r)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Double</span></td>
+        <td><span class="parametername">S</span></td>
+        <td><p>Price of the underlying instrument</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Double</span></td>
+        <td><span class="parametername">K</span></td>
+        <td><p>Strike price of the option</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Double</span></td>
+        <td><span class="parametername">T</span></td>
+        <td><p>Time to expiration (in years)</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Double</span></td>
+        <td><span class="parametername">sigma</span></td>
+        <td><p>Annual volatility of the underlying instrument (as fraction, e.g. 20% is 0.2)</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Double</span></td>
+        <td><span class="parametername">r</span></td>
+        <td><p>Risk-free interest rate (as fraction, e.g. 5% is 0.05)</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Double</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="QuantSharp_BlackScholesEuropeanOptionsFunctions_PutDelta_" data-uid="QuantSharp.BlackScholesEuropeanOptionsFunctions.PutDelta*"></a>
+  <h4 id="QuantSharp_BlackScholesEuropeanOptionsFunctions_PutDelta_System_Double_System_Double_System_Double_System_Double_System_Double_" data-uid="QuantSharp.BlackScholesEuropeanOptionsFunctions.PutDelta(System.Double,System.Double,System.Double,System.Double,System.Double)">PutDelta(Double, Double, Double, Double, Double)</h4>
+  <div class="markdown level1 summary"><p>Delta of an european-style PUT option,
+i.e. the derivative of the option's price with respect to price of the underlying instrument.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static double PutDelta(double S, double K, double T, double sigma, double r)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Double</span></td>
+        <td><span class="parametername">S</span></td>
+        <td><p>Price of the underlying instrument</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Double</span></td>
+        <td><span class="parametername">K</span></td>
+        <td><p>Strike price of the option</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Double</span></td>
+        <td><span class="parametername">T</span></td>
+        <td><p>Time to expiration (in years)</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Double</span></td>
+        <td><span class="parametername">sigma</span></td>
+        <td><p>Annual volatility of the underlying instrument (as fraction, e.g. 20% is 0.2)</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Double</span></td>
+        <td><span class="parametername">r</span></td>
+        <td><p>Risk-free interest rate (as fraction, e.g. 5% is 0.05)</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Double</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="QuantSharp_BlackScholesEuropeanOptionsFunctions_PutImpliedVolatility_" data-uid="QuantSharp.BlackScholesEuropeanOptionsFunctions.PutImpliedVolatility*"></a>
+  <h4 id="QuantSharp_BlackScholesEuropeanOptionsFunctions_PutImpliedVolatility_System_Double_System_Double_System_Double_System_Double_System_Double_" data-uid="QuantSharp.BlackScholesEuropeanOptionsFunctions.PutImpliedVolatility(System.Double,System.Double,System.Double,System.Double,System.Double)">PutImpliedVolatility(Double, Double, Double, Double, Double)</h4>
+  <div class="markdown level1 summary"><p>Calculate the annual implied volatility of an european PUT option given its price.
+(Value is returned as fraction, e.g. 0.2 is 20% volatility.)</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static double PutImpliedVolatility(double S, double K, double T, double r, double P)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Double</span></td>
+        <td><span class="parametername">S</span></td>
+        <td><p>Price of the underlying instrument</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Double</span></td>
+        <td><span class="parametername">K</span></td>
+        <td><p>Strike price of the option</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Double</span></td>
+        <td><span class="parametername">T</span></td>
+        <td><p>Time to expiration (in years)</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Double</span></td>
+        <td><span class="parametername">r</span></td>
+        <td><p>Risk-free interest rate (as fraction, e.g. 5% is 0.05)</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Double</span></td>
+        <td><span class="parametername">P</span></td>
+        <td><p>Price of the option</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Double</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 id="QuantSharp_BlackScholesEuropeanOptionsFunctions_PutImpliedVolatility_System_Double_System_Double_System_Double_System_Double_System_Double__remarks">Remarks</h5>
+  <div class="markdown level1 remarks"><p>Solves numerically using Newton-Raphson method.
+Might fail if result would fall outside of 0-1000% range.</p>
+</div>
+  
+  
+  <a id="QuantSharp_BlackScholesEuropeanOptionsFunctions_PutPrice_" data-uid="QuantSharp.BlackScholesEuropeanOptionsFunctions.PutPrice*"></a>
+  <h4 id="QuantSharp_BlackScholesEuropeanOptionsFunctions_PutPrice_System_Double_System_Double_System_Double_System_Double_System_Double_" data-uid="QuantSharp.BlackScholesEuropeanOptionsFunctions.PutPrice(System.Double,System.Double,System.Double,System.Double,System.Double)">PutPrice(Double, Double, Double, Double, Double)</h4>
+  <div class="markdown level1 summary"><p>Price of an european-style PUT option.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static double PutPrice(double S, double K, double T, double sigma, double r)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Double</span></td>
+        <td><span class="parametername">S</span></td>
+        <td><p>Price of the underlying instrument</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Double</span></td>
+        <td><span class="parametername">K</span></td>
+        <td><p>Strike price of the option</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Double</span></td>
+        <td><span class="parametername">T</span></td>
+        <td><p>Time to expiration (in years)</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Double</span></td>
+        <td><span class="parametername">sigma</span></td>
+        <td><p>Annual volatility of the underlying instrument (as fraction, e.g. 20% is 0.2)</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Double</span></td>
+        <td><span class="parametername">r</span></td>
+        <td><p>Risk-free interest rate (as fraction, e.g. 5% is 0.05)</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Double</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="QuantSharp_BlackScholesEuropeanOptionsFunctions_PutRho_" data-uid="QuantSharp.BlackScholesEuropeanOptionsFunctions.PutRho*"></a>
+  <h4 id="QuantSharp_BlackScholesEuropeanOptionsFunctions_PutRho_System_Double_System_Double_System_Double_System_Double_System_Double_" data-uid="QuantSharp.BlackScholesEuropeanOptionsFunctions.PutRho(System.Double,System.Double,System.Double,System.Double,System.Double)">PutRho(Double, Double, Double, Double, Double)</h4>
+  <div class="markdown level1 summary"><p>Rho of an european-style PUT option,
+i.e. the derivative of option price with respect to risk-free interest rate.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static double PutRho(double S, double K, double T, double sigma, double r)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Double</span></td>
+        <td><span class="parametername">S</span></td>
+        <td><p>Price of the underlying instrument</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Double</span></td>
+        <td><span class="parametername">K</span></td>
+        <td><p>Strike price of the option</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Double</span></td>
+        <td><span class="parametername">T</span></td>
+        <td><p>Time to expiration (in years)</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Double</span></td>
+        <td><span class="parametername">sigma</span></td>
+        <td><p>Annual volatility of the underlying instrument (as fraction, e.g. 20% is 0.2)</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Double</span></td>
+        <td><span class="parametername">r</span></td>
+        <td><p>Risk-free interest rate (as fraction, e.g. 5% is 0.05)</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Double</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 id="QuantSharp_BlackScholesEuropeanOptionsFunctions_PutRho_System_Double_System_Double_System_Double_System_Double_System_Double__remarks">Remarks</h5>
+  <div class="markdown level1 remarks"><p><strong>Important:</strong>
+The value returned is the raw value of the derivative of option price with respect to risk-free rate.
+To get Rho value per the conventional definition (&quot;per 1% of rate change&quot;), divide the result by 100.</p>
+</div>
+  
+  
+  <a id="QuantSharp_BlackScholesEuropeanOptionsFunctions_PutTheta_" data-uid="QuantSharp.BlackScholesEuropeanOptionsFunctions.PutTheta*"></a>
+  <h4 id="QuantSharp_BlackScholesEuropeanOptionsFunctions_PutTheta_System_Double_System_Double_System_Double_System_Double_System_Double_" data-uid="QuantSharp.BlackScholesEuropeanOptionsFunctions.PutTheta(System.Double,System.Double,System.Double,System.Double,System.Double)">PutTheta(Double, Double, Double, Double, Double)</h4>
+  <div class="markdown level1 summary"><p>Theta of an european-style PUT option,
+i.e. the derivative of the option's price with respect to passage of time.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static double PutTheta(double S, double K, double T, double sigma, double r)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Double</span></td>
+        <td><span class="parametername">S</span></td>
+        <td><p>Price of the underlying instrument</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Double</span></td>
+        <td><span class="parametername">K</span></td>
+        <td><p>Strike price of the option</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Double</span></td>
+        <td><span class="parametername">T</span></td>
+        <td><p>Time to expiration (in years)</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Double</span></td>
+        <td><span class="parametername">sigma</span></td>
+        <td><p>Annual volatility of the underlying instrument (as fraction, e.g. 20% is 0.2)</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Double</span></td>
+        <td><span class="parametername">r</span></td>
+        <td><p>Risk-free interest rate (as fraction, e.g. 5% is 0.05)</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Double</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 id="QuantSharp_BlackScholesEuropeanOptionsFunctions_PutTheta_System_Double_System_Double_System_Double_System_Double_System_Double__remarks">Remarks</h5>
+  <div class="markdown level1 remarks"><p><strong>Important:</strong>
+The value returned is the raw value of the derivative of option price with respect to time.
+To get Theta value per the conventional definition (&quot;decay per 1 day&quot;), divide the result by 365.
+Additionally, the value will be <strong>positive</strong> for long positions because T decreases
+as time moves forward, therefore conventional understanding of Theta requires multiplication by -1.</p>
+</div>
+  
+  
+  <a id="QuantSharp_BlackScholesEuropeanOptionsFunctions_Vega_" data-uid="QuantSharp.BlackScholesEuropeanOptionsFunctions.Vega*"></a>
+  <h4 id="QuantSharp_BlackScholesEuropeanOptionsFunctions_Vega_System_Double_System_Double_System_Double_System_Double_System_Double_" data-uid="QuantSharp.BlackScholesEuropeanOptionsFunctions.Vega(System.Double,System.Double,System.Double,System.Double,System.Double)">Vega(Double, Double, Double, Double, Double)</h4>
+  <div class="markdown level1 summary"><p>Vega of an european-style option (same for CALL and PUT),
+i.e. the derivative of option price with respect to volatility.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static double Vega(double S, double K, double T, double sigma, double r)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Double</span></td>
+        <td><span class="parametername">S</span></td>
+        <td><p>Price of the underlying instrument</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Double</span></td>
+        <td><span class="parametername">K</span></td>
+        <td><p>Strike price of the option</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Double</span></td>
+        <td><span class="parametername">T</span></td>
+        <td><p>Time to expiration (in years)</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Double</span></td>
+        <td><span class="parametername">sigma</span></td>
+        <td><p>Annual volatility of the underlying instrument (as fraction, e.g. 20% is 0.2)</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Double</span></td>
+        <td><span class="parametername">r</span></td>
+        <td><p>Risk-free interest rate (as fraction, e.g. 5% is 0.05)</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Double</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 id="QuantSharp_BlackScholesEuropeanOptionsFunctions_Vega_System_Double_System_Double_System_Double_System_Double_System_Double__remarks">Remarks</h5>
+  <div class="markdown level1 remarks"><p><strong>Important:</strong>
+The value returned is the raw value of the derivative of option price with respect to volatility.
+To get Vega value per the conventional definition (&quot;per 1% of volatility change&quot;), divide the result by 100.</p>
+</div>
+  
+  
+  <a id="QuantSharp_BlackScholesEuropeanOptionsFunctions_Vomma_" data-uid="QuantSharp.BlackScholesEuropeanOptionsFunctions.Vomma*"></a>
+  <h4 id="QuantSharp_BlackScholesEuropeanOptionsFunctions_Vomma_System_Double_System_Double_System_Double_System_Double_System_Double_" data-uid="QuantSharp.BlackScholesEuropeanOptionsFunctions.Vomma(System.Double,System.Double,System.Double,System.Double,System.Double)">Vomma(Double, Double, Double, Double, Double)</h4>
+  <div class="markdown level1 summary"><p>Vomma (also known as &quot;Volga&quot;) of an european-style option (same for CALL and PUT),
+i.e. the second-order derivative of option price with respect to volatility.
+It reflects the convexity of Vega.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static double Vomma(double S, double K, double T, double sigma, double r)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Double</span></td>
+        <td><span class="parametername">S</span></td>
+        <td><p>Price of the underlying instrument</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Double</span></td>
+        <td><span class="parametername">K</span></td>
+        <td><p>Strike price of the option</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Double</span></td>
+        <td><span class="parametername">T</span></td>
+        <td><p>Time to expiration (in years)</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Double</span></td>
+        <td><span class="parametername">sigma</span></td>
+        <td><p>Annual volatility of the underlying instrument (as fraction, e.g. 20% is 0.2)</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Double</span></td>
+        <td><span class="parametername">r</span></td>
+        <td><p>Risk-free interest rate (as fraction, e.g. 5% is 0.05)</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Double</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 id="QuantSharp_BlackScholesEuropeanOptionsFunctions_Vomma_System_Double_System_Double_System_Double_System_Double_System_Double__remarks">Remarks</h5>
+  <div class="markdown level1 remarks"><p><strong>Important:</strong>
+The value returned is the raw value of the second-order derivative of option price with respect to volatility.
+To get Vomma value per the conventional definition (&quot;per 1% of volatility change&quot;), divide the result by 100.</p>
+</div>
+</article>
+          </div>
+          
+          <div class="hidden-sm col-md-2" role="complementary">
+            <div class="sideaffix">
+              <div class="contribution">
+                <ul class="nav">
+                </ul>
+              </div>
+              <div class="toggle-mode">
+                <div class="icon">
+                  <i aria-hidden="true">☀</i>
+                </div>
+                <label class="switch">
+                  <input type="checkbox" id="switch-style">
+                  <span class="slider round"></span>
+                </label>
+                <div class="icon">
+                  <i aria-hidden="true">☾</i>
+                </div>
+              </div>
+          
+              <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
+              <h5>In This Article</h5>
+              <div></div>
+              <!-- <p><a class="back-to-top" href="#top">Back to top</a><p> -->
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <footer>
+        <div class="grad-bottom"></div>
+        <div class="footer">
+          <div class="container">
+            <span class="pull-right">
+              <a href="#top">Back to top</a>
+            </span>
+            <div class="pull-left">
+              
+              <span>Generated by <strong>DocFX</strong></span>
+            </div>
+            <div class="toggle-mode pull-right visible-sm visible-xs">
+              <div class="icon">
+                <i aria-hidden="true">☀</i>
+              </div>
+              <label class="switch">
+                <input type="checkbox" id="switch-style-m">
+                <span class="slider round"></span>
+              </label>
+              <div class="icon">
+                <i aria-hidden="true">☾</i>
+              </div>
+            </div>
+          </div>
+        </div>
+        <script type="text/javascript" src="../styles/toggle-theme.js"></script>
+      </footer>    </div>
+    
+    <script type="text/javascript" src="../styles/docfx.vendor.js"></script>
+    <script type="text/javascript" src="../styles/docfx.js"></script>
+    <script type="text/javascript" src="../styles/main.js"></script>
+  </body>
+</html>
