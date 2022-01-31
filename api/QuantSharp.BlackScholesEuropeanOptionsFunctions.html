@@ -153,7 +153,8 @@ i.e. the derivative of the option's price with respect to price of the underlyin
     <tbody>
       <tr>
         <td><span class="xref">System.Double</span></td>
-        <td></td>
+        <td><p>The option's delta</p>
+</td>
       </tr>
     </tbody>
   </table>
@@ -222,7 +223,8 @@ i.e. the derivative of the option's price with respect to price of the underlyin
     <tbody>
       <tr>
         <td><span class="xref">System.Double</span></td>
-        <td></td>
+        <td><p>Implied volatility of the option</p>
+</td>
       </tr>
     </tbody>
   </table>
@@ -294,7 +296,8 @@ Might fail if result would fall outside of 0-1000% range.</p>
     <tbody>
       <tr>
         <td><span class="xref">System.Double</span></td>
-        <td></td>
+        <td><p>The option's price</p>
+</td>
       </tr>
     </tbody>
   </table>
@@ -363,15 +366,15 @@ i.e. the derivative of option price with respect to risk-free interest rate.</p>
     <tbody>
       <tr>
         <td><span class="xref">System.Double</span></td>
-        <td></td>
+        <td><p>The option's rho.
+<br>
+<strong>Important:</strong>
+The value returned is the raw value of the derivative of option price with respect to risk-free rate.
+To get Rho value per the conventional definition (&quot;per 1% of rate change&quot;), divide the result by 100.</p>
+</td>
       </tr>
     </tbody>
   </table>
-  <h5 id="QuantSharp_BlackScholesEuropeanOptionsFunctions_CallRho_System_Double_System_Double_System_Double_System_Double_System_Double__remarks">Remarks</h5>
-  <div class="markdown level1 remarks"><p><strong>Important:</strong>
-The value returned is the raw value of the derivative of option price with respect to risk-free rate.
-To get Rho value per the conventional definition (&quot;per 1% of rate change&quot;), divide the result by 100.</p>
-</div>
   
   
   <a id="QuantSharp_BlackScholesEuropeanOptionsFunctions_CallTheta_" data-uid="QuantSharp.BlackScholesEuropeanOptionsFunctions.CallTheta*"></a>
@@ -437,17 +440,17 @@ i.e. the derivative of the option's price with respect to passage of time.</p>
     <tbody>
       <tr>
         <td><span class="xref">System.Double</span></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  <h5 id="QuantSharp_BlackScholesEuropeanOptionsFunctions_CallTheta_System_Double_System_Double_System_Double_System_Double_System_Double__remarks">Remarks</h5>
-  <div class="markdown level1 remarks"><p><strong>Important:</strong>
-The value returned is the raw value of the derivative of option price with respect to time.
+        <td><p>The option's theta.
+<br>
+<strong>Important:</strong>
+The value is the raw value of the derivative of option price with respect to time.
 To get Theta value per the conventional definition (&quot;decay per 1 day&quot;), divide the result by 365.
 Additionally, the value will be <strong>positive</strong> for long positions because T decreases
 as time moves forward, therefore conventional understanding of Theta requires multiplication by -1.</p>
-</div>
+</td>
+      </tr>
+    </tbody>
+  </table>
   
   
   <a id="QuantSharp_BlackScholesEuropeanOptionsFunctions_Gamma_" data-uid="QuantSharp.BlackScholesEuropeanOptionsFunctions.Gamma*"></a>
@@ -514,7 +517,8 @@ It reflects the convexity of Delta.</p>
     <tbody>
       <tr>
         <td><span class="xref">System.Double</span></td>
-        <td></td>
+        <td><p>The option's gamma</p>
+</td>
       </tr>
     </tbody>
   </table>
@@ -583,7 +587,8 @@ i.e. the derivative of the option's price with respect to price of the underlyin
     <tbody>
       <tr>
         <td><span class="xref">System.Double</span></td>
-        <td></td>
+        <td><p>The option's delta</p>
+</td>
       </tr>
     </tbody>
   </table>
@@ -652,7 +657,8 @@ i.e. the derivative of the option's price with respect to price of the underlyin
     <tbody>
       <tr>
         <td><span class="xref">System.Double</span></td>
-        <td></td>
+        <td><p>Implied volatility of the option</p>
+</td>
       </tr>
     </tbody>
   </table>
@@ -724,7 +730,8 @@ Might fail if result would fall outside of 0-1000% range.</p>
     <tbody>
       <tr>
         <td><span class="xref">System.Double</span></td>
-        <td></td>
+        <td><p>The option's price</p>
+</td>
       </tr>
     </tbody>
   </table>
@@ -793,15 +800,15 @@ i.e. the derivative of option price with respect to risk-free interest rate.</p>
     <tbody>
       <tr>
         <td><span class="xref">System.Double</span></td>
-        <td></td>
+        <td><p>The option's rho.
+<br>
+<strong>Important:</strong>
+The value returned is the raw value of the derivative of option price with respect to risk-free rate.
+To get Rho value per the conventional definition (&quot;per 1% of rate change&quot;), divide the result by 100.</p>
+</td>
       </tr>
     </tbody>
   </table>
-  <h5 id="QuantSharp_BlackScholesEuropeanOptionsFunctions_PutRho_System_Double_System_Double_System_Double_System_Double_System_Double__remarks">Remarks</h5>
-  <div class="markdown level1 remarks"><p><strong>Important:</strong>
-The value returned is the raw value of the derivative of option price with respect to risk-free rate.
-To get Rho value per the conventional definition (&quot;per 1% of rate change&quot;), divide the result by 100.</p>
-</div>
   
   
   <a id="QuantSharp_BlackScholesEuropeanOptionsFunctions_PutTheta_" data-uid="QuantSharp.BlackScholesEuropeanOptionsFunctions.PutTheta*"></a>
@@ -867,17 +874,17 @@ i.e. the derivative of the option's price with respect to passage of time.</p>
     <tbody>
       <tr>
         <td><span class="xref">System.Double</span></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  <h5 id="QuantSharp_BlackScholesEuropeanOptionsFunctions_PutTheta_System_Double_System_Double_System_Double_System_Double_System_Double__remarks">Remarks</h5>
-  <div class="markdown level1 remarks"><p><strong>Important:</strong>
-The value returned is the raw value of the derivative of option price with respect to time.
+        <td><p>The option's theta.
+<br>
+<strong>Important:</strong>
+The value is the raw value of the derivative of option price with respect to time.
 To get Theta value per the conventional definition (&quot;decay per 1 day&quot;), divide the result by 365.
 Additionally, the value will be <strong>positive</strong> for long positions because T decreases
 as time moves forward, therefore conventional understanding of Theta requires multiplication by -1.</p>
-</div>
+</td>
+      </tr>
+    </tbody>
+  </table>
   
   
   <a id="QuantSharp_BlackScholesEuropeanOptionsFunctions_Vega_" data-uid="QuantSharp.BlackScholesEuropeanOptionsFunctions.Vega*"></a>
@@ -943,15 +950,15 @@ i.e. the derivative of option price with respect to volatility.</p>
     <tbody>
       <tr>
         <td><span class="xref">System.Double</span></td>
-        <td></td>
+        <td><p>The option's vega.
+<br>
+<strong>Important:</strong>
+The value is the raw value of the derivative of option price with respect to volatility.
+To get Vega value per the conventional definition (&quot;per 1% of volatility change&quot;), divide the result by 100.</p>
+</td>
       </tr>
     </tbody>
   </table>
-  <h5 id="QuantSharp_BlackScholesEuropeanOptionsFunctions_Vega_System_Double_System_Double_System_Double_System_Double_System_Double__remarks">Remarks</h5>
-  <div class="markdown level1 remarks"><p><strong>Important:</strong>
-The value returned is the raw value of the derivative of option price with respect to volatility.
-To get Vega value per the conventional definition (&quot;per 1% of volatility change&quot;), divide the result by 100.</p>
-</div>
   
   
   <a id="QuantSharp_BlackScholesEuropeanOptionsFunctions_Vomma_" data-uid="QuantSharp.BlackScholesEuropeanOptionsFunctions.Vomma*"></a>
@@ -1018,15 +1025,15 @@ It reflects the convexity of Vega.</p>
     <tbody>
       <tr>
         <td><span class="xref">System.Double</span></td>
-        <td></td>
+        <td><p>The option's Vomma.
+<br>
+<strong>Important:</strong>
+The value is the raw value of the second-order derivative of option price with respect to volatility.
+To get Vomma value per the conventional definition (&quot;per 1% of volatility change&quot;), divide the result by 100.</p>
+</td>
       </tr>
     </tbody>
   </table>
-  <h5 id="QuantSharp_BlackScholesEuropeanOptionsFunctions_Vomma_System_Double_System_Double_System_Double_System_Double_System_Double__remarks">Remarks</h5>
-  <div class="markdown level1 remarks"><p><strong>Important:</strong>
-The value returned is the raw value of the second-order derivative of option price with respect to volatility.
-To get Vomma value per the conventional definition (&quot;per 1% of volatility change&quot;), divide the result by 100.</p>
-</div>
 </article>
           </div>
           
